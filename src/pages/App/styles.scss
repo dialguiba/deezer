@@ -1,0 +1,21 @@
+@import "../../styles/variables";
+
+.App {
+  /* display: grid; */
+  /* grid-template-columns: 330px 1fr;
+  grid-template-rows: 90vh 100px; */
+  /* grid-template-columns: 100px * 3 1fr;
+  grid-template-rows: 90vh 10%; */
+  /* border: solid greenyellow; */
+  display: grid;
+  grid-template-columns: $sidebar-width-proportion auto;
+
+  height: 100vh;
+  width: 100vw;
+}
+
+.page-container {
+  /* border: solid red; */
+  padding: $padding-top-pages $padding-right-pages $padding-bot-pages $padding-left-pages;
+  overflow-y: auto;
+}

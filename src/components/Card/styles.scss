@@ -1,0 +1,10 @@
+.card-container {
+  /* border: solid; */
+  height: 16rem;
+
+  &__image {
+    height: 10rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}

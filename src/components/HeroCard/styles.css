@@ -1,0 +1,19 @@
+/* $topbar-height-proportion: (/978) * 100%;
+ */
+.herocard-container {
+  display: flex;
+}
+.herocard-container__picture {
+  width: 28.0898876404%;
+  /* border: solid; */
+}
+.herocard-container__data {
+  /* filter: opacity(50%); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 71.9101123596%;
+  /* -webkit-filter: opacity(50%); */
+  background-blend-mode: darken;
+  color: white;
+  padding-left: 1.5rem;
+}

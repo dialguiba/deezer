@@ -1,0 +1,34 @@
+.topbar-container {
+  margin-top: 1rem;
+  position: fixed;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  right: 0;
+  width: 74.6153846154%;
+  padding: 0 2rem;
+}
+.topbar-container__search {
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+  border: solid thin;
+  height: fit-content;
+}
+.topbar-container__search__button {
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+.topbar-container__search__input {
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+  outline: none;
+  width: 90%;
+}
+.topbar-container__user {
+  text-align: right;
+}

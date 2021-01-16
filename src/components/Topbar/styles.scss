@@ -1,0 +1,45 @@
+@import "../../styles/variables";
+
+.topbar-container {
+  margin-top: 1rem;
+  position: fixed;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+
+  right: 0;
+  width: $topbar-width-proportion;
+  padding: 0 2rem;
+
+  &__search {
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+    border: solid thin;
+    height: fit-content;
+
+    &__button {
+      /* padding: 6px 10px; */
+      /* margin-top: 8px; */
+      /* margin-right: 16px; */
+      background: #ddd;
+      font-size: 17px;
+      border: none;
+      cursor: pointer;
+    }
+
+    &__input {
+      margin-top: 8px;
+      font-size: 17px;
+      border: none;
+      /* padding: 4px; */
+      outline: none;
+      width: 90%;
+    }
+  }
+
+  &__user {
+    text-align: right;
+  }
+}

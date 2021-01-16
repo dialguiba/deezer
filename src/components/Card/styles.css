@@ -1,0 +1,9 @@
+.card-container {
+  /* border: solid; */
+  height: 16rem;
+}
+.card-container__image {
+  height: 10rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

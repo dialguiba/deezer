@@ -1,0 +1,20 @@
+@import "../../styles/variables";
+
+.herocard-container {
+  display: flex;
+
+  &__picture {
+    width: $hero-pic-width;
+    /* border: solid; */
+  }
+  &__data {
+    /* filter: opacity(50%); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: $hero-data-width;
+    /* -webkit-filter: opacity(50%); */
+    background-blend-mode: darken;
+    color: white;
+    padding-left: 1.5rem;
+  }
+}

@@ -1,0 +1,14 @@
+/* $topbar-height-proportion: (/978) * 100%;
+ */
+.App {
+  /* display: grid; */
+  /* grid-template-columns: 330px 1fr;
+  grid-template-rows: 90vh 100px; */
+  /* grid-template-columns: 100px * 3 1fr;
+  grid-template-rows: 90vh 10%; */
+  /* border: solid greenyellow; */
+  display: grid;
+  grid-template-columns: 25.3846153846% auto;
+  height: 100vh;
+  width: 100vw;
+}

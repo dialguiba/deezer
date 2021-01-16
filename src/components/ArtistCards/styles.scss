@@ -1,0 +1,13 @@
+.cards-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  height: 40%;
+  /* border: solid red; */
+  column-gap: 1rem;
+  row-gap: 1rem;
+}
+
+.results-container {
+  margin-top: 3rem;
+}

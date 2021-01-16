@@ -1,0 +1,27 @@
+$mediaplayer-color: #eb5757;
+$mediaplayer-height-proportion: (100/1087) * 100%;
+
+$sidebar-color: #662323;
+$sidebar-width-proportion: (330/1300) * 100%;
+
+$sidebar-height-padding-proportion: (50/978) * 100%;
+$sidebar-width-padding-proportion: (40/330) * 100%;
+
+$logo-sidebar-width-proportion: (250/978) * 100%;
+$logo-sidebar-height-proportion: (59/330) * 100%;
+
+$actual-album-image-width: (100/1300) * 100%;
+$actual-album-image-height: (100/100) * 100%;
+
+$topbar-width-proportion: 100% -$sidebar-width-proportion;
+/* $topbar-height-proportion: (/978) * 100%;
+ */
+$padding-top-pages: (100/978) * 100%;
+$padding-bot-pages: (211/978) * 100%;
+$padding-left-pages: (40/1300) * 100%;
+$padding-right-pages: (40/1300) * 100%;
+
+$hero-pic-width: (250/890) * 100%;
+$hero-pic-height: (250/890) * 100%;
+
+$hero-data-width: 100% - $hero-pic-width;
